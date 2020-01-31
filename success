@@ -1,0 +1,3 @@
+hai
+[2~select i.Inumber,c.Cname,pd.Pname,i.Idata,v.Vname,v.Vaddress,c.Caddress from shoppinginfo.invoice i join shoppinginfo.productinfo pi join shoppinginfo.productdetails pd join shoppinginfo.customerdata c join shoppinginfo.vendor v join shoppinginfo.vendorinfo vi
+on pd.pid=vi.fkPid and vi.fkVid=v.Vid and i.Iid=pi.fkIid and Pi.fkPid=pd.pid  and c.Cid=i.fkCid and i.Inumber=123;
