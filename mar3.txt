@@ -1,2 +1,5 @@
 Hi how are you
 hello
+Application Process :
+Code Testing  --> building --> --> testing case --> UAT(User accessable Test) --> production
+--> monitoring --> feedback -->client
